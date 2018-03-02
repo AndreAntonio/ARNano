@@ -59,7 +59,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let ball = SCNSphere(radius: 0.15)
         
         let material = SCNMaterial()
-        material.diffuse.contents = UIImage(named: "crumpleSkin.png")
+        material.diffuse.contents = UIImage(named: "basketballSkin.png")
         
         let color = SCNMaterial()
         color.diffuse.contents = UIColor.white
